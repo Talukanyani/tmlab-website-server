@@ -30,8 +30,14 @@ app.use((req, res, next) => {
 // error handler
 app.use((error, req, res, next) => {
   req.app.get('env') === 'development' && console.log(error)
-  res.status(err.status || 500)
+  res.status(error.status || 500)
   res.send('Something went wrong')
 });
 
 module.exports = app;
+
+/* on production
+set Enviroment to production
+change nodemon to node on parkage.json file
+change from devDB to proDB object on dBConfig.js file
+*/
