@@ -1,5 +1,4 @@
-const express = require('express')
-const onDevelopment = express().get('env') == 'development'
+const onDevelopment = process.env.NODE_ENV == 'development'
 
 const validateEmail = (req, res, next) => {
     var emailRegEx = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,5})+$/

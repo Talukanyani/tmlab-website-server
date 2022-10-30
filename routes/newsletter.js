@@ -14,7 +14,7 @@ router.post('/', validateEmail, checkEmailDup, (req, res, next) => {
     subscribe(reqdetails, (dbError, dbInfo) => {
         if (dbError) {
             next(new Error(dbError))
-            // onDevelopment && console.log(dbError)
+            onDevelopment && console.log(dbError)
             return
         }
 

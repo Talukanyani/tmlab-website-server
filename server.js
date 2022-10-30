@@ -1,4 +1,5 @@
 const express = require('express')
+const cors = require('cors')
 const helmet = require('helmet')
 
 const newsletter = require('./routes/newsletter')
@@ -10,7 +11,15 @@ const app = express()
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 
-// app.use(helmet())
+// app.use(cors({
+//   origin: 'http://localhost:3000',
+//   Credentials: true,
+//   optionSucessStatus: 200
+// }))
+
+// console.log(process.env.NODE_ENV);
+
+app.use(helmet())
 
 app.use('/newsletter', newsletter)
 app.use('/sc/notify_me', scNewsletter)
@@ -37,7 +46,15 @@ app.use((error, req, res, next) => {
 module.exports = app;
 
 /* on production
-set Enviroment to production
+set Enviroment to production ($env:NODE_ENV="production")
+unenable cors() on this file
 change nodemon to node on parkage.json file
 change from devDB to proDB object on dBConfig.js file
+*/
+
+/* on development
+set Enviroment to development ($env:NODE_ENV="development")
+enable cors on this file
+change node to nodemon(npm install globally) on parkage.json file
+change from prodDB to devDB object on dBConfig.js file
 */

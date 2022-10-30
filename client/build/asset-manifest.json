@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.a828006c.css",
-    "main.js": "/static/js/main.4ab31351.js",
+    "main.css": "/static/css/main.c6a4a7d2.css",
+    "main.js": "/static/js/main.08ee63f9.js",
     "static/js/787.fb51514b.chunk.js": "/static/js/787.fb51514b.chunk.js",
     "static/media/404-illustration.svg": "/static/media/404-illustration.b4d5eb816feed0378425.svg",
+    "static/media/home_page_illustration_840x480.svg": "/static/media/home_page_illustration_840x480.dd836d852ca57ea0e86a.svg",
     "static/media/home_page_illustration_1280x560.svg": "/static/media/home_page_illustration_1280x560.5407c8a70be92e3cd971.svg",
-    "static/media/home_page_illustration_840x480.svg": "/static/media/home_page_illustration_840x480.be130d1ce67bdc2139da.svg",
     "static/media/Tmlab-Logo.svg": "/static/media/Tmlab-Logo.cde04e5e30879dda35e1574ab02b0edf.svg",
     "static/media/appgallery.svg": "/static/media/appgallery.3cc7afa40f441d832133f2854280212b.svg",
     "static/media/appstore.svg": "/static/media/appstore.5c86ccfc893f02ca0525f5eab9e508bb.svg",
     "static/media/googleplay.svg": "/static/media/googleplay.47e3d7cdbbdae41b6a5887bc7f4edc8c.svg",
-    "static/media/icon-instagram.svg": "/static/media/icon-instagram.28bfd8818530b9dcf5270dd9399a6fa4.svg",
+    "static/media/icon-instagram.svg": "/static/media/icon-instagram.ba10db9d2e08828ead2d593931459562.svg",
     "static/media/sc_app_icon.svg": "/static/media/sc_app_icon.b48e95dad8199ce5d40615aa22db861d.svg",
-    "static/media/icon-twitter.svg": "/static/media/icon-twitter.7da3d0e2ddfd3414b1ff4d287543d2ec.svg",
+    "static/media/icon-twitter.svg": "/static/media/icon-twitter.57c021f9541f7515e2a8fe00c8735ba5.svg",
     "static/media/icon-contact.svg": "/static/media/icon-contact.85d21ca9bde8d7b2470fce7c10c6c078.svg",
     "static/media/icon-connect.svg": "/static/media/icon-connect.fb315d67dad8bf740e661ef91fa30132.svg",
     "static/media/icon-home.svg": "/static/media/icon-home.9e69c2a48f3d155e01ae05916d187472.svg",
@@ -20,15 +20,15 @@
     "index.html": "/index.html",
     "static/media/icon-apps.svg": "/static/media/icon-apps.de9ba1cab87f15571a34b3bb7ccd27e0.svg",
     "static/media/icon-done.svg": "/static/media/icon-done.3474d8462a8edd4b72d7b0863195b2eb.svg",
-    "static/media/icon-close.svg": "/static/media/icon-close.f4a13af24c97a40fee8e749fe67c8072.svg",
+    "static/media/icon-close.svg": "/static/media/icon-close.1ebecdbba2e45088cc720d40b222df02.svg",
     "static/media/icon-info.svg": "/static/media/icon-info.7ad0f536d9b2a775e7b948d022b40440.svg",
     "static/media/icon-email.svg": "/static/media/icon-email.58fa8e7f11e93bf327ef31fc9b1ae3f8.svg",
-    "main.a828006c.css.map": "/static/css/main.a828006c.css.map",
-    "main.4ab31351.js.map": "/static/js/main.4ab31351.js.map",
+    "main.c6a4a7d2.css.map": "/static/css/main.c6a4a7d2.css.map",
+    "main.08ee63f9.js.map": "/static/js/main.08ee63f9.js.map",
     "787.fb51514b.chunk.js.map": "/static/js/787.fb51514b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a828006c.css",
-    "static/js/main.4ab31351.js"
+    "static/css/main.c6a4a7d2.css",
+    "static/js/main.08ee63f9.js"
   ]
 }
